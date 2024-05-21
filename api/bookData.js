@@ -13,7 +13,7 @@ const getBooks = () => new Promise((resolve, reject) => {
   })
     .then((response) => response.json())
     .then((data) => resolve(Object.values(data)))
-    .catch(reject);
+    .catch(reject); 
 });
 
 // TODO: DELETE BOOK
